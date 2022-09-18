@@ -1,5 +1,8 @@
 """Contains main class of the package, TileMap"""
 
+# TODO: implement and check functions
+# TODO: upload to test pypi
+
 
 class TileMap:
     def __init__(self, terrains, tiles, metadata) -> None:
