@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atiles"
+version = "0.1.0"
+description = "Simple tile map object generator written in python"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.10"
+]
+
+dependencies = [
+    "marshmallow"
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
